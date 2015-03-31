@@ -1,7 +1,7 @@
 === Contact Form 7 - PayPal Add-on ===
 Contributors: scottpaterson,wp-plugin
 Donate link: https://wpplugin.org/donate/
-Tags: paypal, contact form 7, cf7
+Tags: paypal, contact form 7, cf7, contact form
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.1.1
