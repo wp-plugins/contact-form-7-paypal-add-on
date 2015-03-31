@@ -1,7 +1,7 @@
 === Contact Form 7 - PayPal Add-on ===
 Contributors: scottpaterson,wp-plugin
 Donate link: https://wpplugin.org/donate/
-Tags: paypal, contact form 7, cf7, contact form
+Tags: paypal, contact form 7, cf7, contact form, form, contact
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.1.1
@@ -9,16 +9,16 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Integrates PayPal with Contact Form 7
+Integrates PayPal with Contact Form 7. Developer by an Offical PayPal Partner.
 
 == Description ==
 = Overview =
 
-This plugin integrates PayPal with Contact Form 7.
+This plugin seamlessly integrates PayPal with Contact Form 7.
 
-Each form can have its own PayPal settings. When a form is enabled with PayPal, and the user submits the form it will send the email to the administrator then auto redirect to PayPal.
+Each contact form can have its own PayPal settings. When a contact form is enabled with PayPal, and the user submits the form it will send the email as usual, then auto redirect to PayPal.
 
-WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
+WP Plugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
 
 == Installation ==
@@ -33,7 +33,7 @@ WPPlugin is an offical PayPal Partner. Various trademarks held by their respecti
 == Screenshots ==
 
 == Screenshots ==
-1. Options while editing contact form
+1. Options while editing a contact form
 2. PayPal settings page
 
 
