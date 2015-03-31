@@ -14,10 +14,9 @@ Integrates PayPal with Contact Form 7
 == Description ==
 = Overview =
 
-*   Integrates PayPal with Contact Form 7
+This plugin integrates PayPal with Contact Form 7.
 
-*   Developed by an Official PayPal Partner.
-
+Each form can have its own PayPal settings. When a form is enabled with PayPal, and the user submits the form it will send the email to the administrator then auto redirect to PayPal.
 
 WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
@@ -32,6 +31,11 @@ WPPlugin is an offical PayPal Partner. Various trademarks held by their respecti
 == Frequently Asked Questions ==
 
 == Screenshots ==
+
+== Screenshots ==
+1. Options while editing contact form
+2. PayPal settings page
+
 
 == Changelog ==
 
