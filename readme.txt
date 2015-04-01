@@ -22,6 +22,32 @@ If you have any problems, questions, or issues please create a support request a
 
 WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website as [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
 
+
+= Contact Form 7 - PayPal Integration Add-on Features =
+
+*	Set items name, price, SKU/ID per contact form
+*	Built in support for 18 languages
+*	Built in support 25 currencies
+*	PayPal testing through SandBox
+*	Choose a cancel payment url
+*	Choose a succesful payment url
+
+> #### Contact Form 7 - PayPal Integration Add-on Pro
+> We offer a Pro version of this plugin for business owners who need more features.<br />
+>
+> * Charge Fixed Tax <br />
+> * Charge Tax Rate <br />
+> * Charge Shipping & Handling per item<br />
+> * Hide Customer's Custom Note Field<br />
+> *	Choose a cancel payment url per contact form<br />
+> *	Choose a succesful payment url per contact form<br />
+>
+>
+> [You can learn more about the Pro version here](https://wpplugin.org/contact-form-7-paypal-add-on/)
+
+
+
+
 == Installation ==
 
 = Automatic Installation =
