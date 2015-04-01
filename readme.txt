@@ -1,7 +1,7 @@
 === Contact Form 7 - PayPal Integration Add-on ===
 Contributors: scottpaterson,wp-plugin
 Donate link: https://wpplugin.org/donate/
-Tags: paypal, contact form 7, cf7, contact form, form, contact
+Tags: paypal, contact form 7, cf7, contact form, form, contact, PayPal payment, button, payment, online payments, Stripe, Super Stripe, Stripe checkout, pay now, paypal plugin for wordpress, button, paypal button, payment form, pay online, paypal buy now, ecommerce, paypal plugin, shortcode, online, payments, payments for wordpress, paypal for wordpress, paypal donation, paypal transfer, payment processing, paypal widget, wp paypal, purchase button, money, invoice, invoicing, payment collect, secure, process credit cards, paypal integration, gateway, stripe, authorize, shopping cart, cart, shopping, shop, AJAX, Akismet, captcha, email, feedback, form, multilingual
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.1.1
@@ -18,8 +18,9 @@ This plugin seamlessly integrates PayPal with Contact Form 7.
 
 Each contact form can have its own PayPal settings. When a contact form is enabled with PayPal, and the user submits the form it will send the email as usual, then auto redirect to PayPal.
 
-WP Plugin is an offical PayPal Partner based in Boulder, Colorado. Various trademarks held by their respective owners.
+If you have any problems, questions, or issues please create a support request and we will get back to you quickly.
 
+WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website as [wpplugin.org >>](https://wpplugin.org) Various trademarks held by their respective owners.
 
 == Installation ==
 
