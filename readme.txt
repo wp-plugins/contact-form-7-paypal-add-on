@@ -1,4 +1,4 @@
-=== Contact Form 7 - PayPal Add-on ===
+=== Contact Form 7 - PayPal Integration Add-on ===
 Contributors: scottpaterson,wp-plugin
 Donate link: https://wpplugin.org/donate/
 Tags: paypal, contact form 7, cf7, contact form, form, contact
