@@ -7,7 +7,7 @@ Description: Integrates PayPal with Contact Form 7
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.0
+Version: 1.1
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -161,8 +161,12 @@ function wpecpp_plugin_settings_link($links)
 {
 unset($links['edit']);
 
-$forum_link   = '<a target="_blank" href="https://wordpress.org/support/plugin/wp-ecommerce-paypal">' . __('Support', 'PTP_LOC') . '</a>';
-$premium_link = '<a target="_blank" href="https://wpplugin.org/contact-form-7-paypal-add-on/">' . __('Get Pro Version', 'PTP_LOC') . '</a>';
+$forum_link   = '<a target="_blank" href="https://wordpress.org/support/plugin/contact-form-7-paypal-add-on">' . __('Support', 'PTP_LOC') . '</a>';
+$premium_link = '<a target="_blank" href="https://wpplugin.org/contact-form-7-paypal-add-on/">' . __('Pro Version', 'PTP_LOC') . '</a>';
+$settings = '<a href="admin.php?page=cf7pp_admin_table">' . __('Settings', 'PTP_LOC') . '</a>';
+$edit = '<a href="plugin-editor.php?file=contact-form-7-paypal-add-on/paypal.php">' . __('Edit', 'PTP_LOC') . '</a>';
+array_push($links, $edit);
+array_push($links, $settings);
 array_push($links, $forum_link);
 array_push($links, $premium_link);
 return $links; 
@@ -219,7 +223,7 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		if ($enable == "1") {
 			if ($email == "2") {
 			
-				include_once ('/includes/redirect.php');
+				include_once ('includes/redirect.php');
 				
 				exit;
 			
