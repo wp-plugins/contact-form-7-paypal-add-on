@@ -20,7 +20,7 @@ Each contact form can have its own PayPal settings. When a contact form is enabl
 
 If you have any problems, questions, or issues please create a support request and we will get back to you quickly.
 
-WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website as [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
+WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website at [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
 
 
 = Contact Form 7 - PayPal Integration Add-on Features =
