@@ -35,6 +35,9 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 > #### Contact Form 7 - PayPal Integration Add-on Pro
 > We offer a Pro version of this plugin for business owners who need more features.<br />
 >
+> * Link form item to quantity<br />
+> * Link form item to price<br />
+> * Link form items to option text fields<br />
 > * Charge Fixed Tax <br />
 > * Charge Tax Rate <br />
 > * Charge Shipping & Handling per item<br />
