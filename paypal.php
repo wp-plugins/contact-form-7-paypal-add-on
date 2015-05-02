@@ -7,7 +7,7 @@ Description: Integrates PayPal with Contact Form 7
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1
+Version: 1.2
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -507,6 +507,9 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		<center><label style="font-size:14pt;">Features: </label></center>
 		 
 		<br />
+		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Link form item to quantity <br />
+		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Link form item to price <br />
+		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Link form items to option text fields <br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Charge Tax <br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Charge Shipping<br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Add Quantity<br />

@@ -1,6 +1,5 @@
 <?php
 
-
 // get variables
 
 global $postid;
@@ -131,9 +130,6 @@ if ($value['language'] == "19") {
 } //Thai
 
 ?>
-
-
-	
 <html>
 <head><title>Redirecting to Paypal...</title></head>
 <body>
@@ -150,10 +146,8 @@ if ($value['language'] == "19") {
 <input type='hidden' name='cancel_return' value='<?php echo $value['cancel']; ?>' />
 <img alt='' border='0' style='border:none;display:none;' src='https://www.paypal.com/$language/i/scr/pixel.gif' width='1' height='1'>
 </form>
-
 <script type="text/javascript">
 document.cf7pp.submit();
 </script>
-
 </body>
 </html>

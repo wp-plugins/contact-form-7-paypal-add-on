@@ -4,8 +4,8 @@ Donate link: https://wpplugin.org/donate/
 Tags: paypal, contact form 7, cf7, contact form, form, contact, PayPal payment, button, payment, online payments, Stripe, Super Stripe, Stripe checkout, pay now, paypal plugin for wordpress, button, paypal button, payment form, pay online, paypal buy now, ecommerce, paypal plugin, shortcode, online, payments, payments for wordpress, paypal for wordpress, paypal donation, paypal transfer, payment processing, paypal widget, wp paypal, purchase button, money, invoice, invoicing, payment collect, secure, process credit cards, paypal integration, gateway, stripe, authorize, shopping cart, cart, shopping, shop, AJAX, Akismet, captcha, email, feedback, form, multilingual
 Author URI: https://wpplugin.org
 Requires at least: 3.0
-Tested up to: 4.2
-Stable tag: 1.1
+Tested up to: 4.2.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,10 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 
 == Changelog ==
 
+= 1.2 =
+* Fix: Fixed failed to open stream problem
+* Update: Updated features available in pro version
+
 = 1.1 =
 * Fixed failed to open stream problem
 * Fixed Support link
@@ -77,6 +81,10 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 
 
 == Upgrade Notice ==
+
+= 1.2 =
+Fix: Fixed failed to open stream problem
+Update: Updated features available in pro version
 
 = 1.1 =
 Fixed failed to open stream problem
