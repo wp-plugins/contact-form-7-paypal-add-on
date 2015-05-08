@@ -36,7 +36,7 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 > We offer a Pro version of this plugin for business owners who need more features.<br />
 >
 > * Link a form item to quantity - A form item can be a textbox, dropdown, radio button, etc. anything that is a number.<br />
-> * Link a form item to price - The price field can be linked to any form item. Pipes are supported to allow for text options for each price.<br />
+> * Link a form item to price - The price field can be linked to any form item. Pipes are supported to allow for dropdown text options for each price.<br />
 > * Link form items to option text fields - The text field can be linked to any form item.<br />
 > * Charge Fixed Tax <br />
 > * Charge Tax Rate <br />
