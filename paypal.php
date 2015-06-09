@@ -7,7 +7,7 @@ Description: Integrates PayPal with Contact Form 7
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.2
+Version: 1.3
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -237,6 +237,24 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 	// hook into contact form 7 form
 	add_action('wpcf7_admin_after_additional_settings', 'cf7pp_admin_after_additional_settings');
 
+
+	function cf7pp_editor_panels ( $panels ) {
+		
+		$new_page = array(
+			'PayPal' => array(
+				'title' => __( 'PayPal', 'contact-form-7' ),
+				'callback' => 'cf7pp_admin_after_additional_settings'
+			)
+		);
+		
+		$panels = array_merge($panels, $new_page);
+		
+		return $panels;
+		
+	}
+	add_filter( 'wpcf7_editor_panels', 'cf7pp_editor_panels' );
+
+
 	function cf7pp_admin_after_additional_settings( $cf7 ) {
 		
 		$post_id = sanitize_text_field($_GET['post']);
@@ -262,14 +280,14 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		$admin_table_output .= "<label>Enable PayPal on this form</label>";
 		$admin_table_output .= "</div>";
 		
-		$admin_table_output .= "<br />Item Description: <br />";
-		$admin_table_output .= "<input type='text' name='name' value='$name'> (Optional, if left blank customer will be able to enter their own description at checkout)<br /><br />";
+		$admin_table_output .= "<br /><table><tr><td>Item Description: </td></tr><tr><td>";
+		$admin_table_output .= "<input type='text' name='name' value='$name'> </td><td> (Optional, if left blank customer will be able to enter their own description at checkout)</td></tr><tr><td>";
 		
-		$admin_table_output .= "Item Price: <br />";
-		$admin_table_output .= "<input type='text' name='price' value='$price'> (Optional, if left blank customer will be able to enter their own price at checkout. Format: for $2.99, enter 2.99)<br /><br />";
+		$admin_table_output .= "Item Price: </td></tr><tr><td>";
+		$admin_table_output .= "<input type='text' name='price' value='$price'> </td><td> (Optional, if left blank customer will be able to enter their own price at checkout. Format: for $2.99, enter 2.99)</td></tr><tr><td>";
 		
-		$admin_table_output .= "Item ID / SKU: <br />";
-		$admin_table_output .= "<input type='text' name='id' value='$id'> (Optional)<br /><br />";
+		$admin_table_output .= "Item ID / SKU: </td></tr><tr><td>";
+		$admin_table_output .= "<input type='text' name='id' value='$id'> </td><td> (Optional)</td></tr><tr><td>";
 		
 		//$admin_table_output .= "Email before or after payment: <br />";
 		//$admin_table_output .= "<select name='email'><option value='1' $before>Before</option><option value='2' $after>After</option></select>";
@@ -277,7 +295,7 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		
 		$admin_table_output .= "<input type='hidden' name='post' value='$post_id'>";
 		
-		$admin_table_output .= "</form>";
+		$admin_table_output .= "</td></tr></table></form>";
 		$admin_table_output .= "</div>";
 		$admin_table_output .= "</div>";
 		$admin_table_output .= "</div>";
@@ -293,8 +311,12 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		
 			$post_id = sanitize_text_field($_POST['post']);
 			
-			$enable = sanitize_text_field($_POST['enable']);
-			update_post_meta($post_id, "_cf7pp_enable", $enable);
+			if (!empty($_POST['enable'])) {
+				$enable = sanitize_text_field($_POST['enable']);
+				update_post_meta($post_id, "_cf7pp_enable", $enable);
+			} else {
+				update_post_meta($post_id, "_cf7pp_enable", 0);
+			}
 			
 			$name = sanitize_text_field($_POST['name']);
 			update_post_meta($post_id, "_cf7pp_name", $name);

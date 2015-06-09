@@ -5,7 +5,7 @@ Tags: paypal, contact form 7, cf7, contact form, form, contact, PayPal payment, 
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.2.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,9 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 
 == Changelog ==
 
+= 1.3 =
+* Fix: Compatibility fix for new layout of Contact Form 7 4.2
+
 = 1.2 =
 * Fix: Fixed failed to open stream problem
 * Update: Updated features available in pro version
@@ -84,6 +87,9 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 
 
 == Upgrade Notice ==
+
+= 1.3 =
+Fix: Compatibility fix for new layout of Contact Form 7 4.2
 
 = 1.2 =
 Fix: Fixed failed to open stream problem
