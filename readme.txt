@@ -22,6 +22,7 @@ If you have any problems, questions, or issues please create a support request a
 
 WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website at [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
 
+Note: This plugin works with both the old and new Contact Form 7 interface.
 
 = Contact Form 7 - PayPal Integration Add-on Features =
 
@@ -63,7 +64,7 @@ WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit
 == Screenshots ==
 
 == Screenshots ==
-1. Options while editing a contact form
+1. Options while editing a contact form - Note: This plugin works with both the old and new Contact Form 7 interface, screenshots from old version.
 2. PayPal settings page
 
 
