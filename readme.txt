@@ -36,6 +36,7 @@ Note: This plugin works with both the old and new Contact Form 7 interface.
 > #### Contact Form 7 - PayPal Integration Add-on Pro
 > We offer a Pro version of this plugin for business owners who need more features.<br />
 >
+> * Only send Contact Form 7 email if PayPal payment is successful.
 > * Link a form item to quantity - A form item can be a textbox, dropdown, radio button, etc. anything that is a number.<br />
 > * Link a form item to price - The price field can be linked to any form item. Pipes are supported to allow for dropdown text options for each price.<br />
 > * Link form items to option text fields - The text field can be linked to any form item.<br />
