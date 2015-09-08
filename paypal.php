@@ -7,7 +7,7 @@ Description: Integrates PayPal with Contact Form 7
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.3
+Version: 1.3.1
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -157,7 +157,7 @@ update_option("cf7pp_my_plugin_notice_shown", "true");
 }
 
 
-function wpecpp_plugin_settings_link($links)
+function cf7pp_plugin_settings_link($links)
 {
 unset($links['edit']);
 
@@ -173,7 +173,7 @@ return $links;
 }
 
 $plugin = plugin_basename(__FILE__); 
-add_filter("plugin_action_links_$plugin", 'wpecpp_plugin_settings_link' );
+add_filter("plugin_action_links_$plugin", 'cf7pp_plugin_settings_link' );
 
 
 
