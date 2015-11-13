@@ -67,7 +67,7 @@ if ($value['language'] == "3") {
 
 if ($value['language'] == "20") {
 	$language = "en_GB";
-} //English
+} //English - UK
 
 if ($value['language'] == "4") {
 	$language = "fr_CA";

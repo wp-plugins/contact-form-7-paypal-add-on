@@ -530,13 +530,12 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		<center><label style="font-size:14pt;">Features: </label></center>
 		 
 		<br />
+		<div class="dashicons dashicons-yes"></div> Only send email if payment is successful. <br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Link form item to quantity <br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Link form item to price <br />
-		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Link form items to option text fields <br />
+		<div class="dashicons dashicons-yes"></div> Link form items to option fields <br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Charge Tax <br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Charge Shipping<br />
-		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Add Quantity<br />
-		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> And More<br />
 		<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Further Plugin Development <br />
 		
 		<br />
