@@ -7,7 +7,7 @@ Description: Integrates PayPal with Contact Form 7
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.3.1
+Version: 1.3.2
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -418,6 +418,7 @@ if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) {
 		<option <?php if ($value['language'] == "1") { echo "SELECTED"; } ?> value="1">Danish</option>
 		<option <?php if ($value['language'] == "2") { echo "SELECTED"; } ?> value="2">Dutch</option>
 		<option <?php if ($value['language'] == "3") { echo "SELECTED"; } ?> value="3">English</option>
+		<option <?php if ($value['language'] == "20") { echo "SELECTED"; } ?> value="20">English - UK</option>
 		<option <?php if ($value['language'] == "4") { echo "SELECTED"; } ?> value="4">French</option>
 		<option <?php if ($value['language'] == "5") { echo "SELECTED"; } ?> value="5">German</option>
 		<option <?php if ($value['language'] == "6") { echo "SELECTED"; } ?> value="6">Hebrew</option>
